@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+/* import Index from '../src/components/nested Router/index' */
+/* import Index from '../src/components/router/index' */
+/* import Index from '../src/components/redux/index' */
+/* import Index from './components/heimabuy/index' */
+import Index from './components/heima-buy-react-redux/index'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Index />  {/* 声明式导航 */}
+        </div>
+    );
 }
 
 export default App;

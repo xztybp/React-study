@@ -1,0 +1,13 @@
+.loginBig {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.loginSmall {
+    margin-top: 200px;
+    width: 400px;
+    height: 200px;
+    background-color: #d6dde2;
+}
